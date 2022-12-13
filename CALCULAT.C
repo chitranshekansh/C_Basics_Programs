@@ -1,4 +1,4 @@
-//Arthimetic Calculator
+//Arthimetic Calculator Using Switch Case
 #include<stdio.h>
 #include<conio.h>
 void main()
