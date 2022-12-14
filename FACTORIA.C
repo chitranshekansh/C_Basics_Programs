@@ -5,7 +5,7 @@ void main()
 {
 long int i,fact=1,n;
 clrscr();
-printf("Enter Range:");
+printf("Enter Number:");
 scanf("%ld",&n);
 for(i=1;i<=n;i++)
 {
