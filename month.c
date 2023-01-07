@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// Print months according to its number
 #include <stdio.h>
 
 void main() {
