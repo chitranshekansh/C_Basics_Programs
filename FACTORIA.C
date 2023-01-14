@@ -3,14 +3,22 @@
 #include<conio.h>
 void main()
 {
-long int i,fact=1,n;
+int n;
+long int factorial(int);
 clrscr();
 printf("Enter Number:");
-scanf("%ld",&n);
+scanf("%d",&n);
+
+printf("The factorial value of %d is:%ld",n,factorial(n));
+getch();
+}
+long int factorial(int n)
+{
+int i;
+long int fact=1;
 for(i=1;i<=n;i++)
 {
 fact*=i;
 }
-printf("The factorial value of %ld is:%ld",n,fact);
-getch();
+return fact;
 }
